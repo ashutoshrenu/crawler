@@ -1,7 +1,7 @@
 <?php
 	require_once "support/web_browser.php";
 	require_once "support/tag_filter.php";
-
+	echo "hello";exit;
 	// Retrieve the standard HTML parsing array for later use.
 	$htmloptions = TagFilter::GetHTMLOptions();
 	ini_set('memory_limit', '-1');
